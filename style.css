@@ -24,9 +24,13 @@ header h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 3em;
     color: #00f2ff;
-    text-shadow: 0 0 20px #00f2ff, 0 0 30px #0079ff;
-    animation: neon-glow 1.5s ease-in-out infinite alternate;
+    background: linear-gradient(135deg, #00f2ff, #0079ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00f2ff;
 }
+
 
 header p.tagline {
     font-size: 1.2em;
